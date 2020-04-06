@@ -1,4 +1,10 @@
 # dssm
+## 文件说明
+config.py 模型参数配置文件  
+data_helper.py 数据预处理：字典，合并数据集和切分train\dev\test  
+data_input.py 数据输入处理：bag of word  
+dssm.py 模型训练文件  
+
 ## 数据分析
 该数据集及其不平衡, simtrain_to05sts.txt中各个标签的分布如下：
 {'0.0': 10098, '1.0': 1, '2.0': 11, '3.0': 21, '4.0': 90, '5.0': 2526, }
