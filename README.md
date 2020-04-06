@@ -67,3 +67,4 @@ Epoch 19 | Test  Loss: 0.768 | Test  Acc: 0.987 | SingleTestTime: 3.596s
 Model saved in file:  model/dssm.ckpt
 ## Tensorboard
 loss:
+![Image text](https://raw.githubusercontent.com/NiBin90/dssm/blob/master/asserts/loss.jpg)
