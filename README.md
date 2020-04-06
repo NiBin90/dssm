@@ -1,4 +1,8 @@
 # dssm
+### 环境
+python 3.7  
+tensorflow: 1.13.1  
+
 ## 文件说明
 config.py 模型参数配置文件  
 data_helper.py 数据预处理：字典，合并数据集和切分train\dev\test  
