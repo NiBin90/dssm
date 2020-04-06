@@ -1,7 +1,7 @@
 # dssm
 ## 数据分析
 该数据集及其不平衡, simtrain_to05sts.txt中各个标签的分布如下：
-{'1.0': 1, '2.0': 11, '3.0': 21, '0.0': 10098, '4.0': 90, '5.0': 2526, }
+{'0.0': 10098, '1.0': 1, '2.0': 11, '3.0': 21, '4.0': 90, '5.0': 2526, }
 直接训练多分类模型，存在较大难度。因此，可将该问题转换为二分类问题，即标签值>2,标记为1;否则为0
 利用DSSM模型，训练过程如下：
 ## Training
@@ -67,4 +67,4 @@ Epoch 19 | Test  Loss: 0.768 | Test  Acc: 0.987 | SingleTestTime: 3.596s
 Model saved in file:  model/dssm.ckpt
 ## Tensorboard
 loss:
-![Image text](https://raw.githubusercontent.com/NiBin90/dssm/blob/master/asserts/loss.jpg)
+![Image text](https://raw.githubusercontent.com/NiBin90/dssm/master/asserts/loss.jpg)
